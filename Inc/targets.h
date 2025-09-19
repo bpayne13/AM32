@@ -19,7 +19,7 @@
 // #define BLPWR
 // #define HVFLYCOLOR
 // #define AM32REF_F051
-
+#define FREELYRC_F421
 // #define G072ESC
 // #define G071ENABLE
 // #define G071_OPEN_DRAIN
@@ -1485,7 +1485,7 @@
 #endif
 
 #ifdef FREELYRC_F421
-#define FIRMWARE_NAME "FreelyRC "
+#define FIRMWARE_NAME "FreelyRC BL"
 #define FILE_NAME "FREELYRC_F421"
 #define DEAD_TIME 60
 #define HARDWARE_GROUP_AT_B
